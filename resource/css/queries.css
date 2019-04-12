@@ -33,7 +33,50 @@
     }
 
     .page__header {
-        margin: 30px 0px 0px;
+        margin: 50px 0px 0px;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+    :root {
+        font-size: 5px;
+    }
+
+    header {
+        height: 200px;
+    }
+
+    .mainContent {
+        padding: 50px 15px;
+
+    }
+    .icon__bell {
+        padding: 5px;
+    }
+
+    .icon__bell .border {
+        border: 1.5px solid;
+        padding: 5px 8px;
+        border-radius: 150px;
+    }
+
+    .launcherBellMessage {
+        right: 20px;
+    }
+
+    .launcherBellMessage .arrow-right {
+        bottom: 10px;
+        right: 30px;
+    }
+
+    .launcherBellMessage:hover .arrow-right {
+        right: 45px;
+    }
+
+    .launcherBellMessage .arrow-right::before {
+        right: 5px;
+        bottom: -15px;
     }
 
 }
