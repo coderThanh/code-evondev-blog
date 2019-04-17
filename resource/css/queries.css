@@ -17,6 +17,10 @@
 }
 
 @media only screen and (max-width:640px) {
+    header {
+        height: 30%;
+    }
+
     .page__mobileNavigation {
         display: block;
     }
@@ -39,14 +43,6 @@
 }
 
 @media only screen and (max-width:400px) {
-    :root {
-        font-size: 5px;
-    }
-
-    header {
-        height: 200px;
-    }
-
     .mainContent {
         padding: 50px 15px;
 
@@ -57,7 +53,6 @@
 
     .icon__bell .border {
         border: 1.5px solid;
-        padding: 5px 8px;
         border-radius: 150px;
     }
 
@@ -66,7 +61,6 @@
     }
 
     .launcherBellMessage .arrow-right {
-        bottom: 10px;
         right: 30px;
     }
 

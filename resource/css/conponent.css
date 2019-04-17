@@ -143,6 +143,7 @@ a:visited {
     width: 100%;
     border-bottom: 1px solid #00000024;
     background-color: #fff;
+    z-index: 10;
     
     
 }
